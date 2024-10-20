@@ -7,7 +7,7 @@ describe('Logout Test', () => {
   it('User Logout', () => {
     // Klik dropdown user untuk logout
     cy.get('p.oxd-userdropdown-name').click();
-
+    //tunggu 2 detik
     cy.wait(2000);
 
     // Klik tombol Logout

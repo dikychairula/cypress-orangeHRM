@@ -38,12 +38,12 @@ describe('Login Test', () => {
     cy.get('.oxd-alert').should('be.visible').and('contain.text', 'Invalid credentials');
   });
 
-  it('User Login with Login with blank username and password', () => {
+  it('User Login with invalid username and password', () => {
     //Akses halaman login
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 
-    cy.get('[name="username"]').type('');
-    cy.get('[name="password"]').type('');
+    cy.get('[name="username"]').type('user');
+    cy.get('[name="password"]').type('user123');
     cy.get('[type="submit"]').click();
 
     //Validasi pesan invalid credentials
