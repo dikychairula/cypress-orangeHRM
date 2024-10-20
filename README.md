@@ -1,4 +1,4 @@
-# QUIZ 3 - Cypress-OrangeHRM
+# QUIZ 3 - Cypress OrangeHRM
 
 ## Daftar Test Case
 
