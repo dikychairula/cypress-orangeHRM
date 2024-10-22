@@ -4,13 +4,14 @@ describe('Login Test', () => {
     //akses halaman login
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     
-    //validasi masuk ke dashboard
+    //validasi masuk ke login
     cy.get('h5').contains('Login').should('have.text', 'Login');
   
     cy.get('[name="username"]').type('Admin');
     cy.get('[name="password"]').type('admin123');
     cy.get('[type="submit"]').click(); 
     
+    //validasi masuk ke login
     cy.url().should('include', '/dashboard');
   });
 
