@@ -8,7 +8,7 @@ describe('User Registration API Unsuccessfully', () => {
       method: 'POST',
       url: 'https://reqres.in/api/register',
       body: userData,
-      failOnStatusCode: false // Prevent Cypress from failing the test on 400 status
+      failOnStatusCode: false
     }).then((response) => {
       expect(response.status).to.eq(400);
       expect(response.duration).to.be.lessThan(1000);
