@@ -25,3 +25,6 @@ source code : https://github.com/dikychairula/cypress-orangeHRM/tree/main/cypres
 |  TC001  | Login with valid credentials | passed  |  https://github.com/dikychairula/cypress-orangeHRM/blob/main/cypress/e2e/orangeHRM/login/loginwithPOM.cy.js  |
 |  TC005   | User Acess menu About  | passed  |  https://github.com/dikychairula/cypress-orangeHRM/blob/main/cypress/e2e/orangeHRM/dropdown-dashboard/aboutwithPOM.cy.js  |
 |  TC006   | User Change Password Successfully | passed  |  https://github.com/dikychairula/cypress-orangeHRM/blob/main/cypress/e2e/orangeHRM/dropdown-dashboard/change-passwordwithPOM.cy.js  |
+
+# Tugas 18 - API in Cypress
+https://github.com/dikychairula/cypress-orangeHRM/tree/main/cypress/e2e/api/reqres
